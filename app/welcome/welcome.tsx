@@ -19,7 +19,7 @@ export function Welcome({ ...props }: { encryptData: string }) {
             />
           </div>
         </header>
-        <div className="w-full space-y-6 px-4">
+        <div className="w-[70%] break-words space-y-6 px-4">
           <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
             {props.encryptData}
           </p>
